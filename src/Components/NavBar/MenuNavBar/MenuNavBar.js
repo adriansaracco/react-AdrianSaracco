@@ -1,7 +1,7 @@
 import "./MenuNavBar.css"
 export const MenuNavBar = () => {
     return (
-        <ul className="UlMenuNavBar">
+        <ul className="ul">
             <li className="LiMenuNavBar">
                 <a className="AMenuNavBar" href="">
                     Link1  Provisorio

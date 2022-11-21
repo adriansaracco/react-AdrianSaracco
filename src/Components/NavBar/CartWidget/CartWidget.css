@@ -1,0 +1,10 @@
+.conjunto-widget{
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    justify-content:center;
+    align-items: center;
+}
+.carrito{
+    width: 50px;
+}
