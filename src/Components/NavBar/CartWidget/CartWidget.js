@@ -8,6 +8,7 @@ export const CardWidget = () => {
                     <img src="./assets/Carrito.svg" width="50px" className="carrito" />
     
                    
+                   
                     <p className="contador">4</p>
                 </div> 
             </div>
