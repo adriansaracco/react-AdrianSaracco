@@ -4,17 +4,22 @@ export const MenuNavBar = () => {
         <ul className="ul">
             <li className="LiMenuNavBar">
                 <a className="AMenuNavBar" href="">
-                    Link1  Provisorio
+                    Remeras
                 </a>
             </li>
             <li className="LiMenuNavBar">
                 <a className="AMenuNavBar" href="">
-                    Links2 Provisorio
+                    Camisas
                 </a>
             </li>
             <li className="LiMenuNavBar">
                 <a className="AMenuNavBar" href="">
-                    Link3 Provisorio
+                    Pantalones
+                </a>
+            </li>
+            <li className="LiMenuNavBar">
+                <a className="AMenuNavBar" href="">
+                    Calzado
                 </a>
             </li>
            
