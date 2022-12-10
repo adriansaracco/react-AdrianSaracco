@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #1A223C;
+    align-content: center;
+  }
+  .footer p {
+    color: white;
+    margin: 0;
+  }
+  .footer .redes a img {
+    color: white;
+    width: 40px;
+  }
+  .footer .redes {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer .redes a {
+    color: white;
+  }
+  

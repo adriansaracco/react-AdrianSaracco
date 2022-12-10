@@ -1,0 +1,11 @@
+
+
+.ContainerCardWidget {
+  max-width: 10vw;
+}
+.ContainerCardWidget .ContainerImgP {
+  align-items: baseline;
+}
+.ContainerCardWidget .ContainerImgP svg {
+  color: rgb(80, 71, 56);
+}

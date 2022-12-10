@@ -1,15 +1,27 @@
-import "./index.css"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import { NavBar } from "./Components/NavBar/NavBar";
+import { ItemDetailContainer } from "./components/itemDetailContainer/ItemDetailContainer";
 
-import { ItemListContainer } from "./Components/ItemListContainer/ItemListContainer";
+import { ItemListContainer } from "./components/itemListContainer/ItemListContainer";
+
+import { NavBar } from "./components/navBar/NavBar";
 
 
-const App = ()=>{
+const App = () => {
     return (
         <div>
-        <NavBar/>
-        <ItemListContainer greeting={"Tienda de Adrián Saracco"}/>
+            <BrowserRouter>
+                <NavBar />
+                <Routes>
+                    <Route path="/" element={ <ItemListContainer/>} />
+                    <Route path="/category" element={ <ItemListContainer />} />
+                    <Route path="/category/:category" element={ <ItemListContainer />} />
+                    <Route path="/itemDetail/:Id" element={ <ItemDetailContainer />} />
+                    <Route path="/cart" element={ <h2>VISUALIZACIÓN DEL CARRITO - Cuando haya uno</h2>} />
+                    <Route path="*" element={ <h2> Página no encontrada</h2>} />
+                </Routes>
+             
+            </BrowserRouter>
         </div>
     )
 }

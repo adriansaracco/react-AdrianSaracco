@@ -1,0 +1,20 @@
+.UlMenuNavBar {
+    display: flex;
+    flex-direction: row;
+    max-width: 60vw;
+  }
+  .UlMenuNavBar .LiMenuNavBar {
+    list-style: none;
+  }
+  .UlMenuNavBar .LiMenuNavBar .AMenuNavBar {
+    color: rgb(194, 190, 190);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+  }
+  .UlMenuNavBar .LiMenuNavBar .AMenuNavBar:active {
+    font-weight: 650;
+  }
+  .UlMenuNavBar .LiMenuNavBar .AMenuNavBar:hover {
+    text-decoration: underline;
+  }
